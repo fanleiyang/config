@@ -1,4 +1,7 @@
 spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
   jpa:
     hibernate:
       show-sql: true
@@ -21,3 +24,4 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 env:
   dev
+  
